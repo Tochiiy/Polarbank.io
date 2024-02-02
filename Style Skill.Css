@@ -23,7 +23,7 @@ body{
 
 .Container a{
     font-size: 20px;
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: white;
     padding: 15px;
@@ -36,7 +36,7 @@ body{
 
 @media all and (max-width:800px){
     .Container{
-        justify-content: space-around;
+        justify-content: center;
     }
 }
 
@@ -45,6 +45,10 @@ body{
     .Container{
         flex-flow: column wrap;
         padding: 0;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center
+        
     }
  
 
