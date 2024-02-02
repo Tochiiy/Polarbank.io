@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+     <link rel="Stylesheet" href="./Style Skill.Css" />
+    <title>Polar Bank</title>
+</head>
+<body>
+    <ul class="Container">
+        <li class="Nav"><a href="#">Home</a></li>
+        <li class="Nav"><a href="#">Crypto-Currencies</a></li>
+        <li class="Nav"><a href="#">Contact</a></li>
+        <li class="Nav"><a href="#">About</a></li>
+    </ul>
+
+    <h1>Account Opening</h1>
+    <div>
+        <header>Requirements</header>
+        <ul class="List">
+            <li class="Req">Copies of acceptable means of identification (Driver's License, International passport, National I.D Card, and any other acceptable identification document deemed fit by the bank)</li>
+            <li class="Req">One passport photograph.</li>
+            <li class="Req">Two (2) duly completed and suitable reference forms</li>
+            <li class="Req">Utility bill issued within the last 3 months</li>
+        </ul>
+    </div>
+
+    <form>
+        <span><h2 style= "color: darkorange;">Create And Account</h2></span>
+
+        <form action="Client Data Account Opening">
+        <p>
+            <label for="First name">First Name</label>
+            <input type="text" name=" Account Holder" id="AC" placeholder="Type in First name" required>
+        </p>
+        <p>
+            <label for="Last Name">Last Name</label>
+            <input type="text" name="Account Holder" id="Ac" placeholder="Type in Last name" required>
+        </p>
+        <p>
+            <label for="Phone Number">Phone Number</label>
+            <input type="tel" name="Phone number" id="num" placeholder="Enter Digits"required>
+        </p>
+        <p>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Pass" placeholder="Input Password" required>
+        </p>
+        <p>
+            <label for="Comfirm Password">Comfirm Password</label>
+            <input type="password" name="Comfirm Password" id="Comfirm Pass" placeholder="Comfirm Password" required>
+        </p>
+
+        <p>
+            <label for="Nationality">Nationality</label>
+            <input type="text" name="Nationality" id="Nationality" placeholder="Country of Origin" required>
+        </p>
+        <p>
+            <label for="Date od birth">Date of Birth</label>
+            <input type="date" name="Date of birth" id="Dob" placeholder="Birthday" required>
+        </p>
+             
+            <p>
+                <label for="Gender">Gender</label>
+            <input type="checkbox" name="Male" id="Gender" required>
+            <label for="Gender">Male</label>
+            
+            <input type="checkbox" name="Female" id="Gender" required>
+            <label for="Gender">Female</label>
+        </p>
+        <p>
+            <label for="Address">Residential Address</label>
+            <textarea name="Address" id="Home Address" placeholder="Home Address" required>Home Address</textarea>
+        </p>
+
+        <p>
+            <label for="Marital Status">Marital Status</label>
+
+            <input type="radio" name="Status" id="Marital Status" required>
+            <Label for="Married">Married</Label>
+            
+            <input type="radio" name="Status" id="Marital Status" required>
+            <Label for="Single">Single</Label>
+
+            <input type="radio" name="Status" id="Marital Status" required>
+            <Label for="Dating">In a Relationship</Label>
+        </p>
+        <P>
+        
+        <Label for="Passport Upload">Upload your passport</Label>
+        <input type="file" name="Status" id="Passport" required>
+    </P>
+    <p>
+        <Label for="Account Type">Account Type</Label>
+        <select name="Type of Account" id="Account Type">
+        <option value="Saving">Savings Account</option>
+        <option value="Current">Current Account</option>
+        <option value="Joint">Joint Account</option>
+        <option value="Foreign currency account">Foreign currency account</option>
+        <option value="Domiciliary">Domiciliary</option>
+        </select>
+        </p>
+
+        <p>
+            <label for="State of Origin">State of Origin</label>
+            <input type="text" name="State of Origin" id="State of Origin" placeholder="State" required>
+        </p>
+        <p>
+        <label id="Desc" for="Brief Description about yourself">Brief Description about yourself</label><br>
+        <textarea id="Description" placeholder="About yourself"></textarea>
+        </p>
+
+        <button>Summit</button>
+    </form>
+    <footer>Web Dev by Tochukwu Sunday</footer>
+</body>
+</html>

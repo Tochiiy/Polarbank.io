@@ -1,0 +1,123 @@
+.Container{
+    display: flex;
+    background-color: deepskyblue;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 0;
+    justify-content: space-evenly;
+}
+    
+
+form{
+    margin-bottom:50px;
+    text-align: center;
+    
+}
+
+body{
+    background-image: url(https://plus.unsplash.com/premium_photo-1677553955495-d63b9ddcb913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFua2luZ3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: none;
+}
+
+
+.Container a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    
+    }
+
+.Container :hover{
+    background-color: #397ac5;
+}
+
+@media all and (max-width:800px){
+    .Container{
+        justify-content: space-around;
+    }
+}
+
+
+@media all and (max-width:100px){
+    .Container{
+        flex-flow: column wrap;
+        padding: 0;
+    }
+ 
+
+
+
+.Container a{
+    text-align: center; 
+    border-top: 1px solid deepskyblue;
+    border-bottom: 1px solid deepskyblue;
+}
+
+.Container li:last-of-type a{
+    border-bottom: none;
+}
+
+
+.List{
+    display: flex;
+    flex-flow: column wrap;
+  }  
+}
+
+.list,.Req{
+    width: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.Req{
+   color: white;
+   font-size: 20px;
+   font-weight: lighter;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    margin-left: 5em;
+}
+header{
+    color: yellow;
+}
+
+p{
+    font-size: 20px;
+    font-weight:800;
+    color: crimson;
+    text-transform: capitalize;
+      
+}
+button{
+    background-color: aqua;
+    
+    border-radius: 30%;
+    box-shadow: 2px 0 1px blue;
+    padding: auto;
+}
+button:hover{
+    background-color: bisque;
+    cursor: pointer;
+
+}
+footer{
+    text-align: right;
+    color: orange;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+     
+    
+   
