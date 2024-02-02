@@ -36,6 +36,7 @@ body{
 
 @media all and (max-width:800px){
     .Container{
+        
         justify-content: center;
     }
 }
@@ -43,7 +44,8 @@ body{
 
 @media all and (max-width:100px){
     .Container{
-        flex-flow: column wrap;
+        display:flex;
+        flex-flow: row wrap;
         padding: 0;
         object-fit: cover;
         align-items: center;
